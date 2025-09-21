@@ -1,0 +1,28 @@
+{
+  "name": "user_auth_and_authorized_token",
+  "version": "1.0.0",
+  "description": "\"bearertokenauth\"",
+  "keywords": [
+    "\"testvalidation\""
+  ],
+  "homepage": "https://github.com/Jayasridhara/user_auth_and_authorized_token#readme",
+  "bugs": {
+    "url": "https://github.com/Jayasridhara/user_auth_and_authorized_token/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayasridhara/user_auth_and_authorized_token.git"
+  },
+  "license": "ISC",
+  "author": "jayasri",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"testauthandauthorized\"",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
+}
