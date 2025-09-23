@@ -45,7 +45,7 @@ npm install express mongoose jsonwebtoken bcrypt dotenv
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_jwt_key
 PORT=3000
---------------------------------------------------------------------
+--------------------------------------------------------------------------------
 4.API Endpoints
 Base URL
 http://localhost:3000/auth
@@ -73,7 +73,7 @@ Error Responses:
 400 Bad Request: Invalid input (e.g., missing fields, invalid email, weak password).
 400 Bad Request: User with that email already exists.
 500 Internal Server Error: Server-side issues.
---------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 2. Log in a user
 Endpoint: POST /auth/login
 Description: Authenticates a user and returns a JWT on successful login.
@@ -122,6 +122,13 @@ Log In: Make a POST request to http://localhost:3000/auth/login. Copy the token 
 Access Protected Route: Make a GET request to http://localhost:3000/auth/me. In the Headers tab, add a new key-value pair:
 Key: Authorization
 Value: Bearer <paste_your_token_here>
+
+
+# 5.Deployment
+
+link:
+----
+https://user-auth-and-authorized-token.onrender.com/
 
 
 
